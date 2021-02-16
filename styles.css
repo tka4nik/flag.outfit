@@ -3,6 +3,10 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+img, video, canvas
+{
+	max-width: 100%;
+}
 .outfit{
 	position: absolute;
 	text-align: center;
@@ -25,11 +29,12 @@ body{
 	filter: drop-shadow(0px 17px 7px rgba(0, 0, 0, 0.4));
 }
 .content{
+	padding-top: auto;
 	position: absolute;
 	font-size: medium;
 	background-color: white;
-	width: 370px;
-	height: 200px;
+	width: 22%;
+	height: 20.7%;
 	text-align: center;
 	top: 37%;
 	left: 50%;
@@ -37,13 +42,10 @@ body{
 	border-radius: 20px 20px 20px 20px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 10px 4px rgba(0, 0, 0, 0.25);
 }
-.content a{
-	font-size: unset;
-}
 .discord{
 	position: relative;
-	width: 370px;
-	height: 84px;
+	width: 100%;
+	height: 40%;
 	background-color: #0832C8;
 	border-radius: 20px 20px 0px 0px;
 	box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
@@ -52,29 +54,40 @@ body{
 .discord:hover{
 	transform: translateY(-10px);
 }
-.discord a{
-	width: 0;
-	height: 0;
-}
 #dclogo{
-	object-fit: cover;
-	position: relative;
-	padding-top: 5px;
-	top: -60px;
-	width: 330px;
-	height: 204px;
+	background-image: url(images/ds_logo.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 80%;
+	height: 80%;
+	padding-top: 5%;
+	display: inline-block;
+	text-indent: -9999px
 }
 #tslogo{
+	background-image: url("images/ts_logo.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
 	position: relative;
-	width: 67px;
-	height: 67px;
+	top: 10%;
+	width: 70px;
+	height: 70px;
 	left: -10%;
-	padding-top: 20px;
+	padding-top: 5%;
+	display: inline-block;
+	text-indent: -9999px;
 }
-#Calque_1{
+#otlogo{
+	background-image: url("images/ot_logo.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
 	position: relative;
+	top: 10%;
 	width: 70px;
 	height: 70px;
 	left: 10%;
-	padding-top: 20px;
+	padding-top: 5%;
+	display: inline-block;
+	text-indent: -9999px;
 }
