@@ -1,37 +1,59 @@
-body{
-	background-image: url('images/background_1.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 img, video, canvas
 {
 	max-width: 100%;
 }
+.bg{
+	background-image: url("images/background_1.png");
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	mix-blend-mode: overlay;
+}
+.blue{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #56B8E1;
+	opacity: 25%;
+}
 .outfit{
 	position: absolute;
 	text-align: center;
-	top: 15%;
-	left: 50%;
-	transform: translateX(-50%);
+	margin-top: 5%;
+	width: 34%;
+	height: 24%;
+	left: 33%;
+}
+.logo{
+	margin-top: -1%;
+	position: relative;
+	float: left;
+	width: 30%;
+	height: auto;
+	display: inline-block;
+}
+.text{
+	position: relative;
+	float: right;
+	width: 70%;
+	height: auto;
+	display: inline-block;
 }
 #bird{
-	position: relative;
-	width: auto;
-	height: auto;
-	transform: scale(1.2);
 	filter: drop-shadow(0px 17px 7px rgba(0, 0, 0, 0.4));
 }
 #text{
-	width: 440px;
-	height: 119px;
-	padding: 5px;
-	transform: scale(0.9);
 	filter: drop-shadow(0px 17px 7px rgba(0, 0, 0, 0.4));
 }
 .content{
-	padding-top: auto;
 	position: absolute;
-	font-size: medium;
 	background-color: white;
 	width: 22%;
 	height: 20.7%;
@@ -45,7 +67,7 @@ img, video, canvas
 .discord{
 	position: relative;
 	width: 100%;
-	height: 40%;
+	height: 42%;
 	background-color: #0832C8;
 	border-radius: 20px 20px 0px 0px;
 	box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
@@ -71,8 +93,8 @@ img, video, canvas
 	background-repeat: no-repeat;
 	position: relative;
 	top: 10%;
-	width: 70px;
-	height: 70px;
+	width: 20%;
+	height: 40%;
 	left: -10%;
 	padding-top: 5%;
 	display: inline-block;
@@ -84,8 +106,8 @@ img, video, canvas
 	background-repeat: no-repeat;
 	position: relative;
 	top: 10%;
-	width: 70px;
-	height: 70px;
+	width: 20%;
+	height: 40%;
 	left: 10%;
 	padding-top: 5%;
 	display: inline-block;
