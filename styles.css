@@ -76,7 +76,7 @@ img, video, canvas
 .discord:hover{
 	transform: translateY(-10px);
 }
-@media (max-width: 992px) {
+@media (max-width: 992px) and (orientation: portrait) {
 	.outfit{
 		top: 7%;
 		margin-top: 0;
@@ -128,7 +128,6 @@ img, video, canvas
 		transform: translateY(-20px);
 	}
 }
-
 #dclogo{
 	background-image: url(images/ds_logo.png);
 	background-size: 80%;
