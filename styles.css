@@ -3,7 +3,7 @@ img, video, canvas
 	max-width: 100%;
 }
 .bg{
-	background-image: url("images/background_1.png");
+	background-image: url("images/background_1.jpg");
 	position: absolute;
 	top: 0;
 	bottom: 0;
